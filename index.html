@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Tip calculator app</title>
+<body>
+  <h2 class="main-text">SPLITTER</h2>
+  <main id="tips-calculator">
+    <div class="container">
+      <div class="input-side">
+        <div class="information">
+          <p>Bill</p>
+          <input type="text" placeholder="0" required class="inputs">
+        </div>
+        <div class="about">
+          <p>Select Tip %</p>
+          <div class="tips">
+            <div class="tip">5%</div>
+            <div class="tip">10%</div>
+            <div class="tip">15%</div>
+            <div class="tip">25%</div>
+            <div class="tip">50%</div>
+            <div class="tip custom">Custom</div>
+          </div>
+        </div>
+        <div class="information">
+          <p>Number of People</p>
+          <input type="text" required placeholder="0" class="inputs">
+        </div>
+      </div>
+      <div class="result-side">
+        <div class="inner-res">
+          <div class="totalAndTip">
+            <div class="tipAmount">
+              <div class="box">
+                <p>Tip Amount</p>
+                <span>/ person</span>
+              </div>
+              <span>$0.00</span>
+            </div>
+            <div class="total">
+              <div class="box">
+                <p>Total</p>
+                <span>/ person</span>
+              </div>
+              <span>$0.00</span>
+            </div>
+          </div>
+          <div class="reset">
+            <button type="submit">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
