@@ -110,4 +110,39 @@ body{
 .result-side{
     display: flex;
     padding: 45px;
+    background-color: var(--resultAndTip);
+    color: var(--whiteBack);
+    border-radius: 15px;
+}
+.inner-res{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.totalAndTip{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.tipAmount{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    & span{
+        color: hsl(184, 14%, 56%);
+        font-size: 13px;
+    }
+}
+.priceTip, .priceTotal{
+    color:hsl(186, 14%, 43%);
+    font-size: 40px;
 }
