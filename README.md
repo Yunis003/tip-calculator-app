@@ -12,4 +12,4 @@ JavaScript: Logic for calculations and user interactions.
 
 # Installation
 Copy code
-git clone https://github.com/yourusername/tip-calculator.git
+git clone https://github.com/Yunis003/tip-calculator-app.git
