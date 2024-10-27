@@ -13,5 +13,3 @@ JavaScript: Logic for calculations and user interactions.
 # Installation
 Copy code
 git clone https://github.com/yourusername/tip-calculator.git
-
-Or you can just click the (Live Preview Below):
