@@ -13,22 +13,32 @@
       <div class="input-side">
         <div class="information">
           <p>Bill</p>
-          <input type="text" placeholder="0" required class="inputs">
+          <input type="text" placeholder="0" required class="inputs billInput">
         </div>
         <div class="about">
           <p>Select Tip %</p>
           <div class="tips">
-            <div class="tip">5%</div>
-            <div class="tip">10%</div>
-            <div class="tip">15%</div>
-            <div class="tip">25%</div>
-            <div class="tip">50%</div>
-            <div class="tip custom">Custom</div>
+            <div class="tip salam">
+              <span class="percentage">5</span>%
+            </div>
+            <div class="tip">
+              <span class="percentage">10</span>%
+            </div>
+            <div class="tip">
+              <span class="percentage">15</span>%
+            </div>
+            <div class="tip">
+              <span class="percentage">25</span>%
+            </div>
+            <div class="tip">
+              <span class="percentage">50</span>%
+            </div>
+            <div class="tip custom"><input type="text" placeholder="Custom" class="customPercentage"></div>
           </div>
         </div>
         <div class="information">
           <p>Number of People</p>
-          <input type="text" required placeholder="0" class="inputs">
+          <input type="text" required placeholder="0" class="inputs peopleInput">
         </div>
       </div>
 
@@ -51,7 +61,7 @@
             </div>
           </div>
           <div class="reset">
-            <button type="submit">Reset</button>
+            <button type="submit" class="submit">Calculate</button>
           </div>
         </div>
       </div>

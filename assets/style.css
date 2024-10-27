@@ -86,12 +86,11 @@ body{
         & .tip{
             width:100px ;
             height: 45px;
-            background-color: var(--resultAndTip);
-            color:var(--whiteBack);
             display: flex;
             justify-content: center;
             align-items: center;
             border-radius: 5px;
+            cursor: pointer;
             transition: all .1s ease-in;
             &:hover{
                 background-color: hsl(184, 56%, 74%);
@@ -101,11 +100,26 @@ body{
         & .custom{
             background-color: hsl(0, 0%, 97%);
             color: hsl(184, 14%, 56%);
+            cursor: pointer;
             &:hover{
                 background-color: hsl(0, 0%, 97%);
             }
         }
     }
+}
+.tip{
+    background-color: hsl(183, 100%, 15%);
+    color:#FFF;
+}
+.custom input{
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .result-side{
     display: flex;
@@ -164,3 +178,9 @@ body{
         color: var(--whiteBack)
     };
 }
+
+.salam{
+    background-color: hsl(184, 56%, 74%);
+    color: black;
+}
+
